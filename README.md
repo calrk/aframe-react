@@ -1,5 +1,15 @@
 ## aframe-react
 
+[npm-image]: https://img.shields.io/npm/v/aframe-react.svg?style=flat-square
+[npm-url]: https://npmjs.org/package/aframe-react
+[travis-image]: https://img.shields.io/travis/ngokevin/aframe-react.svg?style=flat-square
+[travis-url]: http://travis-ci.org/ngokevin/aframe-react
+[downloads-image]: http://img.shields.io/npm/dm/aframe-react.svg?style=flat-square
+[downloads-url]: https://npmjs.org/package/aframe-react
+[![Travis CI][travis-image]][travis-url]
+[![npm][npm-image]][npm-url]
+[![npm Downloads][downloads-image]][downloads-url]
+
 Build virtual reality experiences with **[A-Frame](https://aframe.io)** and
 [React](https://facebook.github.io/react/).
 
