@@ -165,7 +165,7 @@ function serializeComponents(props) {
       return;
     }
 
-    if (props[component] === undefined) {
+    if (props[component] === undefined || props[component] === null) {
       return;
     }
 

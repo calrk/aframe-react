@@ -99,7 +99,7 @@ export function serializeComponents (props) {
       return;
     }
 
-    if (props[component] === undefined) { return; }
+    if (props[component] === undefined || props[component] === null) { return; }
 
     if (props[component].constructor === Function) { return; }
 
