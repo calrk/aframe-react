@@ -65,7 +65,7 @@ var Entity = exports.Entity = function (_React$Component) {
 
       // Allow through normal attributes..
       var otherProps = {};
-      ['id', 'mixin'].forEach(function (propName) {
+      ['id', 'mixin', 'no-select'].forEach(function (propName) {
         if (_this2.props[propName]) {
           otherProps[propName] = _this2.props[propName];
         }
@@ -119,7 +119,7 @@ var Scene = exports.Scene = function (_React$Component2) {
 
       // Allow through normal attributes..
       var otherProps = {};
-      ['id', 'mixin'].forEach(function (propName) {
+      ['id', 'mixin', 'antialias'].forEach(function (propName) {
         if (_this4.props[propName]) {
           otherProps[propName] = _this4.props[propName];
         }
